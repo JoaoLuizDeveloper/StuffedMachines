@@ -70,7 +70,7 @@ namespace StuffedMachines.API
         {
             try
             {
-                //Test pipeliness
+                //Test pipeline
                 return Ok(await _machine.Create(machine));
             }
             catch (Exception ex)
